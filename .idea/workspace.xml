@@ -4,22 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39220fd4-6e05-41cb-a740-afd5c2a6e31c" name="Changes" comment="" />
+    <list default="true" id="fbe5e57d-8afb-4f13-85e2-cf6bd110f650" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea/.idea.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/raevilman_awslambdadeployer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.idea/api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/api/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/api/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/api/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/api/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/api/src/main/java/med/voll/api/ApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/api/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/api/src/test/java/med/voll/api/ApiApplicationTests.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/userdept" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="2VONoWQS6Bb1S104cCmDhGNRztc" />
+  <component name="ProjectId" id="2VOXxtGAq6FZYcg2jXi6oEfFG34" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,18 +68,27 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Development/projects/Java/Java Web e Spring boot"
+    "last_directory_selection": "C:/Development/projects/Java/Java Web e Spring boot/api/src/main/java/med/voll/api",
+    "last_opened_file_path": "C:/Development/projects/Java/Java Web e Spring boot",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="39220fd4-6e05-41cb-a740-afd5c2a6e31c" name="Changes" comment="" />
-      <created>1694703346993</created>
+      <changelist id="fbe5e57d-8afb-4f13-85e2-cf6bd110f650" name="Changes" comment="" />
+      <created>1694708353552</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1694703346993</updated>
+      <updated>1694708353552</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
   </component>
 </project>
