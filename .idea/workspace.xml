@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbe5e57d-8afb-4f13-85e2-cf6bd110f650" name="Changes" comment="create table medicos">
+    <list default="true" id="fbe5e57d-8afb-4f13-85e2-cf6bd110f650" name="Changes" comment="Implementando validações com Bean Validation">
+      <change afterPath="$PROJECT_DIR$/api/src/main/resources/db/migration/V2__alter-table-medicos-add-column-telefone.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/controller/MedicoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/controller/MedicoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/endereco/DadosEndereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/endereco/DadosEndereco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/DadosCadastroMedico.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/DadosCadastroMedico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/Medico.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/Medico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/resources/db/migration/V1__create-table-medicos.sql" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/db/migration/V1__create-table-medicos.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +88,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695073693352</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implementando validações com Bean Validation">
+      <option name="closed" value="true" />
+      <created>1695074913295</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695074913295</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -99,6 +108,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add @Autowired, automatizando o save no database" />
     <MESSAGE value="create table medicos" />
-    <option name="LAST_COMMIT_MESSAGE" value="create table medicos" />
+    <MESSAGE value="Implementando validações com Bean Validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementando validações com Bean Validation" />
   </component>
 </project>
