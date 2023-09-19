@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbe5e57d-8afb-4f13-85e2-cf6bd110f650" name="Changes" comment="Aplicando ordenação padrão dos dados que foram requisitados do banco de dados">
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/DadosAtualizacaoMedico.java" afterDir="false" />
+    <list default="true" id="fbe5e57d-8afb-4f13-85e2-cf6bd110f650" name="Changes" comment="Implementando metodo para a funcionalidade de cadastro">
+      <change afterPath="$PROJECT_DIR$/api/src/main/resources/db/migration/V3__alter-table-medicos-add-column-ativo.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/controller/MedicoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/controller/MedicoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/endereco/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/endereco/Endereco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/DadosListagemMedico.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/DadosListagemMedico.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/Medico.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/Medico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/MedicoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/MedicoRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695132830455</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Implementando metodo para a funcionalidade de cadastro">
+      <option name="closed" value="true" />
+      <created>1695135792439</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1695135792439</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -147,6 +154,7 @@
     <MESSAGE value="criando Record para listagem dos medicos" />
     <MESSAGE value="Paginação - limitando a qtdade de infos trazidas ao realizar um Get no banco de dados" />
     <MESSAGE value="Aplicando ordenação padrão dos dados que foram requisitados do banco de dados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aplicando ordenação padrão dos dados que foram requisitados do banco de dados" />
+    <MESSAGE value="Implementando metodo para a funcionalidade de cadastro" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementando metodo para a funcionalidade de cadastro" />
   </component>
 </project>
