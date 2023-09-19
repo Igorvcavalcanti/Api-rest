@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbe5e57d-8afb-4f13-85e2-cf6bd110f650" name="Changes" comment="Paginação - limitando a qtdade de infos trazidas ao realizar um Get no banco de dados">
+    <list default="true" id="fbe5e57d-8afb-4f13-85e2-cf6bd110f650" name="Changes" comment="Aplicando ordenação padrão dos dados que foram requisitados do banco de dados">
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/DadosAtualizacaoMedico.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/controller/MedicoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/controller/MedicoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/endereco/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/endereco/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/DadosListagemMedico.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/DadosListagemMedico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/Medico.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/Medico.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
         <option value="Record" />
       </list>
     </option>
@@ -58,6 +61,7 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="med.voll.api.medico" />
+      <recent name="med.voll.api.controller" />
       <recent name="med.voll.api.endereco" />
     </key>
   </component>
@@ -118,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695132018994</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Aplicando ordenação padrão dos dados que foram requisitados do banco de dados">
+      <option name="closed" value="true" />
+      <created>1695132830455</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1695132830455</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -134,6 +146,7 @@
     <MESSAGE value="Inserindo a coluna telefone no banco de dados" />
     <MESSAGE value="criando Record para listagem dos medicos" />
     <MESSAGE value="Paginação - limitando a qtdade de infos trazidas ao realizar um Get no banco de dados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Paginação - limitando a qtdade de infos trazidas ao realizar um Get no banco de dados" />
+    <MESSAGE value="Aplicando ordenação padrão dos dados que foram requisitados do banco de dados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aplicando ordenação padrão dos dados que foram requisitados do banco de dados" />
   </component>
 </project>
