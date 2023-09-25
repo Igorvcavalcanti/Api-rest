@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbe5e57d-8afb-4f13-85e2-cf6bd110f650" name="Changes" comment="Add cadastro de pacientes&#10;Create pacientes table&#10;Ajuste DadosDet">
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/paciente/DadosListagemPaciente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fbe5e57d-8afb-4f13-85e2-cf6bd110f650" name="Changes" comment="Add metodo listar pacientes">
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/controller/MedicoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/controller/MedicoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/controller/PacienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/controller/PacienteController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695662222314</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add metodo listar pacientes">
+      <option name="closed" value="true" />
+      <created>1695662899492</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695662899492</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -172,6 +179,7 @@
     <MESSAGE value="Implementando metodo para a funcionalidade de cadastro" />
     <MESSAGE value="Add a exclusão lógica e nova versão do banco de dados" />
     <MESSAGE value="Add cadastro de pacientes&#10;Create pacientes table&#10;Ajuste DadosDet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add cadastro de pacientes&#10;Create pacientes table&#10;Ajuste DadosDet" />
+    <MESSAGE value="Add metodo listar pacientes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add metodo listar pacientes" />
   </component>
 </project>
