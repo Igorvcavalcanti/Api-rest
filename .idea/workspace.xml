@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbe5e57d-8afb-4f13-85e2-cf6bd110f650" name="Changes" comment="Implementando metodo para a funcionalidade de cadastro">
-      <change afterPath="$PROJECT_DIR$/api/src/main/resources/db/migration/V3__alter-table-medicos-add-column-ativo.sql" afterDir="false" />
+    <list default="true" id="fbe5e57d-8afb-4f13-85e2-cf6bd110f650" name="Changes" comment="Add a exclusão lógica e nova versão do banco de dados">
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/controller/PacienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/DadosDetalhamentoMedico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/paciente/DadosAtualizacaoPaciente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/paciente/DadosCadastroPaciente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/paciente/DadosDetalhamentoPaciente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/paciente/Paciente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/paciente/PacienteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/resources/db/migration/V4__create-table-pacientes.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/resources/db/migration/V5__alter-table-pacientes-add-column-ativo.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/controller/MedicoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/controller/MedicoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/Medico.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/Medico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/MedicoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/medico/MedicoRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
         <option value="Record" />
       </list>
     </option>
@@ -59,6 +65,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="med.voll.api.paciente" />
       <recent name="med.voll.api.medico" />
       <recent name="med.voll.api.controller" />
       <recent name="med.voll.api.endereco" />
@@ -137,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695135792439</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add a exclusão lógica e nova versão do banco de dados">
+      <option name="closed" value="true" />
+      <created>1695137621254</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695137621254</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -155,6 +170,7 @@
     <MESSAGE value="Paginação - limitando a qtdade de infos trazidas ao realizar um Get no banco de dados" />
     <MESSAGE value="Aplicando ordenação padrão dos dados que foram requisitados do banco de dados" />
     <MESSAGE value="Implementando metodo para a funcionalidade de cadastro" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementando metodo para a funcionalidade de cadastro" />
+    <MESSAGE value="Add a exclusão lógica e nova versão do banco de dados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add a exclusão lógica e nova versão do banco de dados" />
   </component>
 </project>
