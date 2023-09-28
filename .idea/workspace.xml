@@ -4,9 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbe5e57d-8afb-4f13-85e2-cf6bd110f650" name="Changes" comment="Add metodo atualizar pacientes">
+    <list default="true" id="fbe5e57d-8afb-4f13-85e2-cf6bd110f650" name="Changes" comment="oragnizando packages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/med/voll/api/controller/PacienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/med/voll/api/controller/PacienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/controller/MedicoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/controller/MedicoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/controller/PacienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/controller/PacienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/medico/DadosAtualizacaoMedico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/vo/DadosAtualizacaoMedico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/medico/DadosCadastroMedico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/vo/DadosCadastroMedico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/medico/DadosDetalhamentoMedico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/vo/DadosDetalhamentoMedico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/medico/DadosListagemMedico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/vo/DadosListagemMedico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/medico/Medico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/Medico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/medico/MedicoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/repository/MedicoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/paciente/DadosAtualizacaoPaciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/vo/DadosAtualizacaoPaciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/paciente/DadosCadastroPaciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/vo/DadosCadastroPaciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/paciente/DadosDetalhamentoPaciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/vo/DadosDetalhamentoPaciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/paciente/DadosListagemPaciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/vo/DadosListagemPaciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/paciente/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/domain/Paciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/med/voll/api/paciente/PacienteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/med/voll/api/repository/PacienteRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +45,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
@@ -40,20 +60,24 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2VOXxtGAq6FZYcg2jXi6oEfFG34" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Development/projects/Java/Java Web e Spring boot/api/src/main/java/med/voll/api&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Development/projects/Java/Java Web e Spring boot&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_directory_selection": "C:/Development/projects/Java/Java Web e Spring boot/api/src/main/java/med/voll/api",
+    "last_opened_file_path": "C:/Development/projects/Java/Java Web e Spring boot",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="med.voll.api.paciente" />
@@ -167,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695663582731</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="oragnizando packages">
+      <option name="closed" value="true" />
+      <created>1695908263927</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1695908263927</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -177,6 +209,7 @@
     <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add @Autowired, automatizando o save no database" />
     <MESSAGE value="create table medicos" />
     <MESSAGE value="Implementando validações com Bean Validation" />
@@ -189,6 +222,7 @@
     <MESSAGE value="Add cadastro de pacientes&#10;Create pacientes table&#10;Ajuste DadosDet" />
     <MESSAGE value="Add metodo listar pacientes" />
     <MESSAGE value="Add metodo atualizar pacientes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add metodo atualizar pacientes" />
+    <MESSAGE value="oragnizando packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="oragnizando packages" />
   </component>
 </project>
