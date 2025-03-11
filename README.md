@@ -58,6 +58,3 @@ src/main/java/med/voll/api
 - Implementar autenticação com **Spring Security**  
 - Adicionar **Swagger** para documentação da API  
 - Persistência com **PostgreSQL**  
-
----  
-Se precisar de ajustes ou mais informações, me avise! 🚀
